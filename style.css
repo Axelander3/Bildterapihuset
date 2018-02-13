@@ -1,0 +1,41 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	background-color: #9CCC65;
+	height: 100vh;
+}
+
+.nav-bar {
+	height: 80px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+    list-style-type: none;
+	background-color: #5C7F32;
+	text-align: center;
+
+
+}
+
+#logo {
+}
+
+.nav-bar a {
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 100%;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 32px;
+	margin: auto;
+}
+
+.nav-bar a:hover {
+	background-color: #455F26;
+}
