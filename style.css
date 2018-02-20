@@ -8,8 +8,10 @@ html, body {
 	height: 100vh;
 }
 
+/* Nav bar stype */
+
 .nav-bar {
-	height: 80px;
+	height: 75px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -17,25 +19,67 @@ html, body {
 	justify-content: space-between;
     list-style-type: none;
 	background-color: #5C7F32;
-	text-align: center;
-
 
 }
 
-#logo {
-}
+.nav-bar a { 
 
-.nav-bar a {
-	margin-top: auto;
-	margin-bottom: auto;
+	line-height: 75px;
+	width: 100%;
 	height: 100%;
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	font-size: 32px;
+	font-size: 34px;
 	margin: auto;
+	text-align: center;
+}
+
+#logo {
+	margin-top: 7px;
+	height: 85%;
+	width: 100%;
 }
 
 .nav-bar a:hover {
 	background-color: #455F26;
 }
+
+/* image slider design */
+
+#slideshow { 
+    margin: 25px 25px 0 25px;
+    position: relative; 
+    height: 450px; 
+    width: auto; 
+    border-radius: 4px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    height: 100%;
+    width: auto;
+}
+
+#slideshow img {
+    box-shadow: 0 0 10px rgba(0,0,0,0.4); 
+	border-radius: 4px;
+	height: 100%;
+	width: 100%;
+}
+
+/*text style */
+
+.text-box {
+	height: 150px;
+	width: 100%;
+	background-color: white;
+	margin: 25px 25px 0 25px;
+}
+
+
+
+
+
+
+

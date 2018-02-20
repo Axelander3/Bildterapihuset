@@ -10,22 +10,55 @@
 
 </head>
 <body>
+
 	<div class="container">
+
 		<nav class="nav-bar">
 
-				<img id="logo" class="button" src="logga.svg">
+				<img id="logo" src="logga.svg">
 
-				<a class="button" href="">Startsida</a>
+				<a href="">Startsida</a>
 
-				<a class="button" href="">Aktuellt</a>
+				<a href="">Aktuellt</a>
 
-				<a class="button" href="">Om oss</a>
+				<a href="">Om oss</a>
 
-				<a class="button" href="">Resurser</a>
+				<a href="">Resurser</a>
 
-				<a class="button" href="">Kontakt</a>
+				<a href="">Kontakt</a>
 		</nav>
+		
+
+		<div id="slideshow">
+		   <div>
+		     <img src="img1.jpeg">
+		   </div>
+		   <div>
+		     <img src="img2.jpeg">
+		   </div>
+		   <div>
+		     <img src="img3.jpeg">
+		   </div>
+		</div>
+
+		<div class="text-box">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+		</div>
+
+
+
 	</div>
 
+
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
