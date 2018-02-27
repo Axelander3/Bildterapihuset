@@ -11,22 +11,23 @@
 </head>
 <body>
 
-	<div class="container">
-
+		
+	<article id="startsida" class="sida start">
 		<nav class="nav-bar">
 
 				<img id="logo" src="logga.svg">
 
-				<a href="">Startsida</a>
+				<a href="#startsida">Startsida</a>
 
-				<a href="">Aktuellt</a>
+				<a href="#aktuellt">Aktuellt</a>
 
-				<a href="">Om oss</a>
+				<a href="#om-oss">Om oss</a>
 
-				<a href="">Resurser</a>
+				<a href="#resurser">Resurser</a>
 
-				<a href="">Kontakt</a>
+				<a href="#kontakt">Kontakt</a>
 		</nav>
+
 		
 
 		<div id="slideshow">
@@ -54,7 +55,32 @@
 
 
 
-	</div>
+	</article>
+
+
+	<article id="aktuellt" class="sida aktuellt">
+		AKTUELLT
+
+
+	</article>
+
+	<article id="om-oss" class="sida om-oss">
+		
+OM OSS
+
+	</article>
+
+	<article id="resurser" class="sida resurser">
+		
+RESURSER
+
+	</article>
+
+	<article id="kontakt" class="sida kontakt">
+		
+
+KONTAKT
+	</article>
 
 
 
