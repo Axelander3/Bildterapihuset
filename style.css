@@ -1,17 +1,21 @@
 html, body {
 	padding: 0;
 	margin: 0;
+	background-color: #9CCC65;
 }
 
 .sida {
 	background-color: #9CCC65;
 	height: 100vh;
-	margin-top: 0;
 }
 
 /* Nav bar stype */
 
 .nav-bar {
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 999;
 	height: 75px;
 	width: 100%;
 	margin: 0;
@@ -46,6 +50,8 @@ html, body {
 }
 
 #startsida {
+	padding-top: 25px;
+	margin-top: 50px;
 }
 
 /* image slider design */
@@ -81,12 +87,18 @@ html, body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.text {
+	padding-top: 10px;
+	margin: 25px 25px 0 25px;
+	font-family: 'Roboto', sans-serif;
+}
 
 /*Aktuellt*/
 
 #aktuellt {
 	
 }
+
 
 /*Om oss*/
 
